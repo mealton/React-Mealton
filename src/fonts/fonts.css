@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: local("BebasNeue-Regular"), url("Bebas_Neue/BebasNeue-Regular.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Bebas Neue Cyrillic";
+    src: local("Bebas Neue Cyrillic"), url("Bebas_Neue/Bebas Neue Cyrillic.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-Black";
+    src: local("Rubik-Black"), url("Rubik/Rubik-Black.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-BlackItalic";
+    src: local("Rubik-BlackItalic"), url("Rubik/Rubik-BlackItalic.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-Bold";
+    src: local("Rubik-Bold"), url("Rubik/Rubik-Bold.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-BoldItalic";
+    src: local("Rubik-BoldItalic"), url("Rubik/Rubik-BoldItalic.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-ExtraBold";
+    src: local("Rubik-ExtraBold"), url("Rubik/Rubik-ExtraBold.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-ExtraBoldItalic";
+    src: local("Rubik-ExtraBoldItalic"), url("Rubik/Rubik-ExtraBoldItalic.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-Italic";
+    src: local("Rubik-Italic"), url("Rubik/Rubik-Italic.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-LightItalic";
+    src: local("Rubik-LightItalic"), url("Rubik/Rubik-LightItalic.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-Medium";
+    src: local("Rubik-Medium"), url("Rubik/Rubik-Medium.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-MediumItalic";
+    src: local("Rubik-MediumItalic"), url("Rubik/Rubik-MediumItalic.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-Regular";
+    src: local("Rubik-Regular"), url("Rubik/Rubik-Regular.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-SemiBold";
+    src: local("Rubik-SemiBold"), url("Rubik/Rubik-SemiBold.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "Rubik-SemiBoldItalic";
+    src: local("Rubik-SemiBoldItalic"), url("Rubik/Rubik-SemiBoldItalic.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "PT-Root-UI_Bold";
+    src: local("PT-Root-UI_Bold"), url("PT Root UI/PT-Root-UI_Bold.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "PT-Root-UI_Light";
+    src: local("PT-Root-UI_Light"), url("PT Root UI/PT-Root-UI_Light.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "PT-Root-UI_Medium";
+    src: local("PT-Root-UI_Medium"), url("PT Root UI/PT-Root-UI_Medium.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "PT-Root-UI_Regular";
+    src: local("PT-Root-UI_Regular"), url("PT Root UI/PT-Root-UI_Regular.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "PT-Root-UI_VF";
+    src: local("PT-Root-UI_VF"), url("PT Root UI/PT-Root-UI_VF.ttf") format("TrueType");
+}

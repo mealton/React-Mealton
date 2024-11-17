@@ -1,0 +1,134 @@
+#player {
+  z-index: 99999;
+
+  .player {
+    //margin-top: 30px;
+    //background-color: #fff;
+    /*position: fixed;
+    left: 2%;
+    top: 50px;*/
+    width: 100%;
+    max-width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+
+    #songTitleName {
+      position: absolute;
+      bottom: 7px;
+      margin: 0;
+      left: 0;
+      width: 100%;
+      //color: rgba(47, 113, 244, 0.75);
+      color: #FFF;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      line-height: 1;
+    }
+
+    .songs {
+      cursor: pointer;
+    }
+
+    button {
+      position: relative;
+      z-index: 2;
+      outline: none;
+      border-radius: 100%;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+
+      &#play, &#pause {
+        img {
+          width: 12px;
+        }
+      }
+
+      img {
+        width: 20px;
+        display: inline;
+      }
+    }
+
+    #volume {
+      width: 100px;
+      margin: 0 20px;
+    }
+
+    .hp_slide {
+      border-radius: 10px;
+      overflow: hidden;
+      float: left;
+      width: calc(100% - (40px + 20px) * 2 - 100px * 2);
+      background: #FFF;
+      height: 10px;
+      cursor: pointer;
+    }
+
+    .hp_range {
+      width: 0;
+      border-radius: 10px;
+      background: linear-gradient(to right, #007fd1, #c600ff);
+      height: 100%;
+      transition: width .5s ease-in-out;
+    }
+
+    .time {
+      height: 100%;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+
+    .wrapper-music {
+      padding: 20px;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto 50px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border: 1px solid #000;
+      border-radius: 50px;
+      position: relative;
+      background-color: #000;
+      color: #FFF;
+    }
+
+    .volume {
+      position: relative;
+    }
+
+
+    output {
+      position: absolute;
+      left: 0;
+      top: -22px;
+      font-weight: bold;
+      padding-top: 7px;
+      font-size: 12px;
+      line-height: 1.42857143;
+      color: #FFF;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+  }
+
+}
+
+
+

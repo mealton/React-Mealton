@@ -1,0 +1,27 @@
+.prices-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 35px 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .prices-top {
+        grid-template-columns: 1fr;
+        margin-top: 5px;
+        grid-gap: 10px;
+    }
+
+
+    .prices-bottom-text {
+        margin-top: 10px;
+    }
+
+    .prices-bottom-text {
+        margin-top: 15px;
+    }
+
+    .prices-bottom-text__description {
+        font-size: 14px;
+    }
+}

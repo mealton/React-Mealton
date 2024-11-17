@@ -1,0 +1,36 @@
+header.header {
+  position: relative;
+  z-index: 99;
+  text-align: right;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.menu {
+  padding: 25px 0;
+  margin-bottom: 30px;
+}
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+.menu .menu-option {
+  padding-left: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.menu .menu-option.active {
+  text-decoration: underline;
+}
+
+.menu-hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=Header.css.map */

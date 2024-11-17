@@ -1,0 +1,10 @@
+import './Bebas_Neue/Bebas Neue Cyrillic.ttf';
+import './Bebas_Neue/BebasNeue-Regular.ttf';
+import './PT Root UI/PT-Root-UI_Bold.ttf';
+import './PT Root UI/PT-Root-UI_Light.ttf';
+import './PT Root UI/PT-Root-UI_Medium.ttf';
+import './PT Root UI/PT-Root-UI_Regular.ttf';
+import './PT Root UI/PT-Root-UI_VF.ttf';
+import './Rubik/Rubik-Bold.ttf';
+import './Rubik/Rubik-Medium.ttf';
+import './Rubik/Rubik-Regular.ttf';

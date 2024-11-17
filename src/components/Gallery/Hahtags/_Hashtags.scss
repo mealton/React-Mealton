@@ -1,0 +1,45 @@
+.hashtags {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.hashtags p {
+  cursor: pointer;
+  margin: 0;
+}
+
+.faq-tagslist, .faq-tagslist li {
+  display: inline-block;
+  margin: 10px 5px 10px 0;
+}
+
+.faq-tagslist li a {
+  color: #39739d;
+  background-color: #e1ecf4;
+  border-color: transparent;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 2px 2px 2px 0;
+  padding: 0.4em 0.5em;
+  line-height: 1;
+  white-space: nowrap;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  transition: background-color .3s ease-in-out;
+}
+
+.faq-tagslist li a:hover {
+  color: #2c5877;
+  background-color: #d0e3f1;
+}
+
+.clear-tags {
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: smaller;
+  color: darkred;
+}

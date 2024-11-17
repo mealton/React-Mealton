@@ -1,0 +1,75 @@
+.close-modal-img {
+  position: fixed;
+  right: 45px;
+  font-size: 22px !important;
+  color: rgba(47, 46, 46, 0.5);
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+}
+.close-modal-img:hover {
+  color: rgba(47, 46, 46, 0.7);
+}
+
+.fa.preloading {
+  pointer-events: none;
+}
+.fa.preloading:after {
+  font-size: inherit;
+}
+
+.lyric-dialog {
+  padding: 30px 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: calc(100% - 2em - 6px);
+  /*-ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    width: 0;
+  }*/
+  scrollbar-width: thin;
+}
+.lyric-dialog::-webkit-scrollbar {
+  height: 11px;
+  width: 11px;
+  -webkit-appearance: none;
+}
+.lyric-dialog::-webkit-scrollbar-thumb {
+  background-color: rgba(47, 46, 46, 0.2);
+  border: 3px solid #fbf6f6;
+  border-radius: 8px;
+}
+
+.lyric-nav {
+  position: fixed;
+  font-size: 30px !important;
+  color: rgba(47, 46, 46, 0.2);
+  top: calc(50% - 15px);
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+}
+.lyric-nav:hover {
+  color: rgba(47, 46, 46, 0.6);
+}
+.lyric-nav.fa-angle-left {
+  left: 35px;
+}
+.lyric-nav.fa-angle-right {
+  right: 35px;
+}
+
+.comments-area {
+  padding-top: 50px;
+}
+
+.link-grey {
+  color: #aaa;
+}
+
+.link-grey:hover {
+  color: #00913b;
+}
+
+/*# sourceMappingURL=Lyric.css.map */

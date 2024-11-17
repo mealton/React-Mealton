@@ -1,0 +1,150 @@
+$main_color: #353c43;
+$extra_color1: #FFF;
+$extra_color2: #eab623;
+$main_font_light: "GilroyLight", sans-serif;
+$main_font_regular: "GilroyRegular", sans-serif;
+$main_font_bold: "GilroyBold", sans-serif;
+
+@mixin no-scroll-bar() {
+  /* хром, сафари */
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  /* ie 10+ */
+  -ms-overflow-style: none;
+
+  /* фф (свойство больше не работает, других способов тоже нет)*/
+  overflow: -moz-scrollbars-none;
+}
+
+._modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, .95);
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+  padding: 60px 0;
+  color: #FFF;
+  font-size: 30px;
+
+  @include no-scroll-bar;
+
+  .content {
+    width: calc(100% - 100px);
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0;
+  }
+
+  #modal_img {
+    margin: 0 auto;
+  }
+
+  #modal_description a {
+    color: deepskyblue;
+  }
+
+  &.hidden-modal {
+    display: none;
+    opacity: 0;
+  }
+
+  .description.old {
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 5%;
+    background-color: rgba(255, 255, 255, .7);
+    color: $main_color;
+    font-family: $main_font_bold;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: justify;
+    color: #FFF !important;
+    padding: 0 2.5% 1.5rem;
+    color: rgba(255, 255, 255, 0.25);
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+    background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.8));
+
+    &:before {
+      display: block;
+      content: "";
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 999px) { /*TABLET*/
+
+  }
+
+  @media screen and (min-width: 599px) and (max-width: 767px) { /*WIDEPHONES*/
+
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 599px) { /*MOBILE*/
+    display: none !important;
+  }
+
+  #zoom, #zoomIn {
+    width: 60px;
+    position: fixed;
+    left: calc(50% - 30px);
+    top: 30px;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .close-modal {
+    width: 40px;
+    position: fixed;
+    cursor: pointer;
+    right: 20px;
+    top: 20px;
+    z-index: 999;
+  }
+
+
+  .draggable {
+    position: fixed;
+    cursor: grab;
+
+    &:active {
+      cursor: grabbing;
+    }
+  }
+
+  #modal-counter{
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFF;
+    position: fixed;
+    left: 30px;
+    top: 20px;
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+    z-index: 999;
+  }
+
+}

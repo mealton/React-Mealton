@@ -1,0 +1,40 @@
+$main_color: #000;
+
+header.header {
+  position: relative;
+  z-index: 99;
+  text-align: right;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.menu {
+  padding: 25px 0;
+  margin-bottom: 30px;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+  }
+
+  .menu-option {
+    padding-left: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}
+
+.menu-hidden {
+  display: none;
+}

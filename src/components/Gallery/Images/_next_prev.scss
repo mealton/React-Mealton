@@ -1,0 +1,71 @@
+.fa_wrap_right {
+  position: fixed;
+  right: 0;
+  top: calc(50% - 30px);
+  width: 60px;
+  height: 60px;
+}
+.fa_wrap_left {
+  position: fixed;
+  left: 0;
+  top: calc(50% - 30px);
+  width: 60px;
+  height: 60px;
+}
+.fa_wrap_left, .fa_wrap_right{
+  &:hover {
+    #to_next, #to_prev{
+      color: #6b6b6b !important;
+    }
+  }
+}
+.white{
+  color: #FFF;
+}
+.z99{
+  z-index: 99;
+}
+
+.in2_left, .in2_right {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+#to_next, #to_next2 {
+  position: fixed;
+  right: 1.5%;
+  top: 50%;
+  font-size: 36px;
+  margin-top: -30px;
+  color: #d4d4d4;
+  cursor: pointer;
+}
+#to_prev2, #to_prev {
+  position: fixed;
+  left: 1.5%;
+  top: 50%;
+  font-size: 60px;
+  margin-top: -30px;
+  color: #d4d4d4;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {      /*TABLET*/
+  #to_next, #to_prev{
+    color: #6b6b6b;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 599px) and (max-width: 767px) {    /*WIDEPHONES*/
+  #to_next, #to_prev{
+    color: #6b6b6b;
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) {      /*MOBILE*/
+  #to_next, #to_prev{
+    color: #6b6b6b;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,173 @@
+
+.data-item {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(211, 214, 221);
+    padding: 45px 35px 25px;
+    box-sizing: border-box;
+    position: relative;
+    transition: border-color, background-color 0.5s ease-in-out;
+}
+
+.data-item:last-child:not(.modal-item) {
+    grid-column: span 3;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.data-item:last-child .data-item__name {
+    display: block;
+    font-size: 38px;
+    margin-top: 15px;
+    margin-right: 15px;
+    color: #2D3242;
+}
+
+.data-item:last-child .data-item__slogan {
+    display: block;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+
+
+.data-item:hover, .data-item.checked {
+    background-color: rgba(1, 185, 197, 0.05);
+    border-color: #01B9C5;
+}
+
+.data-item__discount {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: url("../../../../../assets/img/Star.svg") center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    right: 5px;
+    top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: PT-Root-UI_Medium, sans-serif;
+    font-size: 18.67px;
+    font-weight: 500;
+    line-height: 24.27px;
+    color: #FFF;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.data-item__discount.disabled {
+    opacity: 0;
+}
+
+.data-item__name {
+    display: block;
+    text-align: left;
+    font-family: Bebas Neue Cyrillic, sans-serif;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: #687078;
+    text-transform: uppercase;
+}
+
+.data-item__price {
+    display: block;
+    font-family: PT-Root-UI_Bold, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -2px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.data-item__price.disabled {
+    opacity: 0;
+}
+
+.data-item__oldprice {
+    display: block;
+    font-family: PT-Root-UI_Medium, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26.4px;
+    text-align: right;
+    color: #95979F;
+}
+
+.data-item__slogan {
+    display: block;
+    margin-top: 20px;
+    font-family: PT-Root-UI_Medium, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    color: #2F4353;
+}
+
+.data-item__slogan.mobile{
+    display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+
+    .data-item {
+        padding: 35px 25px 40px !important;
+        grid-column: auto !important;
+    }
+
+    .data-item__price.price {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 44px;
+    }
+
+    .data-item__oldprice {
+        font-size: 20px;
+    }
+
+    .data-item.large-item {
+        display: block;
+        text-align: center;
+    }
+
+    .data-item:after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+    .data-item__discount {
+        right: 10px;
+        top: 5px;
+        width: 50px;
+        height: 50px;
+        font-size: 13.33px;
+        line-height: 1;
+    }
+
+    .data-item__name {
+        float: left;
+        font-size: 24px !important;
+    }
+
+    .data-item__slogan {
+        position: absolute;
+        left: 25px;
+        bottom: 30px;
+        font-size: 14px;
+        max-width: 110px;
+        text-align: left;
+        margin: 0 !important;
+        display: none !important;
+    }
+
+    .data-item__slogan.mobile{
+        display: block !important;
+    }
+
+    .slogan__hide {
+        display: none;
+    }
+}

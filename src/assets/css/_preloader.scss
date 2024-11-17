@@ -1,0 +1,111 @@
+.preloading {
+  position: relative;
+  overflow: hidden;
+
+  &.fa, &.btn, &.time{
+    position: relative;
+    &:after{
+      position: absolute;
+    }
+  }
+
+  &.time:before{
+    display: none;
+  }
+
+  &:not(.fa):before{
+    background-color: rgba(255, 255, 255, .7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    content: "";
+  }
+
+  &:after {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    //max-height: 95vh;
+    z-index: 999999;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: FontAwesome, sans-serif;
+    content: '\f110';
+    font-size: 36px;
+
+
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+  }
+
+  &.btn {
+    cursor: default;
+    pointer-events: none;
+
+    &:after {
+      font-size: 22px;
+    }
+  }
+
+  @-ms-keyframes spin {
+    from {
+      -ms-transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+    }
+  }
+
+  @-moz-keyframes spin {
+    from {
+      -moz-transform: rotate(0deg);
+    }
+    to {
+      -moz-transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes spin {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

@@ -1,0 +1,68 @@
+@import "fonts.css";
+
+.container {
+    max-width: 1170px !important;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+dialog {
+    position: fixed;
+}
+
+dialog .close-modal-img {
+    position: absolute;
+    right: 10px !important;
+    top: 5px !important;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 1680px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.lyric-body {
+    padding-bottom: 60px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.fa-heart-o:active:before {
+    content: "\f004";
+}
+
+a {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.my-gallery {
+    padding-bottom: 60px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-03 {
+    opacity: 0;
+}
+
+.opacity-05 {
+    opacity: 0;
+}
+
+.opacity-07 {
+    opacity: 0;
+}

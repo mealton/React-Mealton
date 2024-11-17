@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+#plList {
+  margin-top: 50px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  //background-color: #0665a2;
+  color: #000;
+  font-size: 1rem;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: .025rem;
+  line-height: 1.618;
+  padding: 1rem 0;
+}
+
+
+#plList li {
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  padding: 10px 0;
+
+  .plTitle span {
+    font-weight: bold;
+    color: #3c70ba;
+  }
+}
+
+#plList li:hover, .plSel.active {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.plItem {
+  position: relative;
+}
+
+.plTitle {
+  left: 50px;
+  overflow: hidden;
+  position: absolute;
+  right: 65px;
+  text-overflow: ellipsis;
+  top: 0;
+  white-space: nowrap;
+}
+
+.plNum {
+  padding-left: 21px;
+  width: 25px;
+}
+
+.plLength, .plLikes {
+  padding-left: 21px;
+  position: absolute;
+  right: 70px;
+  top: 0;
+}
+
+.plLikes {
+  right: 21px;
+}
+
+.plSel {
+  //color: #fff;
+  //cursor: default !important;
+  &:hover {
+    background-color: rgba(0, 0, 0, .1);
+  }
+}
