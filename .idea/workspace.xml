@@ -3,33 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24f5dbe7-f709-4cff-aa23-050fec9b6a87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Bebas_Neue/Bebas Neue Cyrillic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/PT Root UI/PT-Root-UI_Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/PT Root UI/PT-Root-UI_Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/PT Root UI/PT-Root-UI_Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/PT Root UI/PT-Root-UI_Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/PT Root UI/PT-Root-UI_VF.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/apiKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apikey/apiKey.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,19 +54,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\Pages\MusicPage" />
-      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\Gallery\Images" />
-      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\Gallery\Images\Modal" />
-      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\Gallery\Subs" />
-      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\assets\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\Admin\Literature" />
       <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\Admin\Gallery" />
       <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\FormElements" />
       <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\redux\reducers" />
       <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\Music" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\api\apikey" />
+      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\Pages\MusicPage" />
+      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\Gallery\Images" />
+      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\Gallery\Images\Modal" />
+      <recent name="C:\Users\titov\PhpstormProjects\4atestreact\src\components\Gallery\Subs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,7 +139,7 @@
       <workItem from="1731406508892" duration="14615000" />
       <workItem from="1731484708236" duration="408000" />
       <workItem from="1731849836434" duration="3056000" />
-      <workItem from="1731853108334" duration="283000" />
+      <workItem from="1731853108334" duration="1044000" />
     </task>
     <servers />
   </component>

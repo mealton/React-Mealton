@@ -1,5 +1,5 @@
 import Axios from "axios";
-import {APIKEY} from "./apiKey";
+import {APIKEY} from "./apikey/apiKey";
 
 const axios = Axios.create({
     withCredentials: true,
