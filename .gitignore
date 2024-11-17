@@ -23,8 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 #api
-/src/api/apikey
+src/api/apikey/*
 
 #idea
-/.idea
-/.vs
+.idea/*
+.vs/*
