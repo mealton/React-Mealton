@@ -1,10 +1,11 @@
 import Axios from "axios";
+import {APIKEY} from "./apiKey";
 
 const axios = Axios.create({
     withCredentials: true,
     baseURL: "https://api.mealton.ru/site/",
     headers: {
-        "API-Key": "OAUDNgFqLFnlPsTgN9Hfk8RucvZqGDha"
+        "API-Key": APIKEY
     }
 });
 
