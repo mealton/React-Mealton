@@ -4,8 +4,6 @@
     <list default="true" id="24f5dbe7-f709-4cff-aa23-050fec9b6a87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/apiKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apikey/apiKey.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +137,7 @@
       <workItem from="1731406508892" duration="14615000" />
       <workItem from="1731484708236" duration="408000" />
       <workItem from="1731849836434" duration="3056000" />
-      <workItem from="1731853108334" duration="1044000" />
+      <workItem from="1731853108334" duration="1601000" />
     </task>
     <servers />
   </component>
